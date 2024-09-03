@@ -108,7 +108,7 @@ yarn develop
 NODE_ENV=production npm run start
 ```
 เพื่อเริ่มรัน server
-10. ใช้ Public IP ของ ec2 instance ที่เราใช้เพื่อเปิดหน้าเว็บแอปพลิเคชัน เช่น \\http://54.224.73.115:1337\\
+10. ใช้ Public IP ของ ec2 instance ที่เราใช้เพื่อเปิดหน้าเว็บแอปพลิเคชัน เช่น \' http://54.224.73.115:1337 \'
 - 54.224.73.115 คือ Public IP และตามด้วย Port 1337 เนื่องจากเปิดเซิฟเวอร์ที่ Port 1337
 
 อ้างอิงจาก [document](https://docs.strapi.io/dev-docs/deployment)
