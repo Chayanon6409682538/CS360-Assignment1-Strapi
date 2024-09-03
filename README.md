@@ -67,7 +67,7 @@ yarn develop
 
 5.เมื่อ Strapi เริ่มทำงานสามารถเข้าไปที่ http://localhost:1337/admin ในเว็บเบราว์เซอร์เพื่อสร้างบัญชีผู้ดูแลระบบและเริ่มใช้งาน Strapi ได้
 
-6.หากต้องการหยุดการทำงานของ Strapi สามารถกด \\Ctrl + C\\ ใน Terminal ได้และหากอยากเริ่มการทำงานใหม่ให้ใช้คำสั่งในข้อ 4.
+6.หากต้องการหยุดการทำงานของ Strapi สามารถกด \' Ctrl + C \' ใน Terminal ได้และหากอยากเริ่มการทำงานใหม่ให้ใช้คำสั่งในข้อ 4.
 
 อ้างอิงข้อมูลจาก [document](https://docs.strapi.io/dev-docs/installation/cli)
 
@@ -88,10 +88,10 @@ yarn develop
 
 1. login เข้า aws account จากนั้น search หา ec2 กดเข้าไปและสร้าง instance โดย instance type คือ t2.small
 2. ตั้งค่า inbound rules ให้เข้าถึงได้จากเครื่องใดๆในอินเทอร์เน็ตโดย 
-\\set type เป็น all traffic
+\' set type เป็น all traffic
 Protocol เป็น all 
 Port range เป็น all 
-และ source เป็น 0.0.0.0/0\\
+และ source เป็น 0.0.0.0/0 \'
 3. จากนั้นใช้เครื่องของตัวเอง connect เข้าสู่เครื่องของ ec2 instance
 4. เมื่อ connect สำเร็จให้ install node.js และ git
 5. เมื่อ install สำเร็จให้ใช้คำสั่ง git clone เพื่อ clone repository ที่มี application มาไว้บนเครื่อง ec2
