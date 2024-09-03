@@ -1,7 +1,7 @@
-#Strapi
-##assignment1
+# Strapi
+## assignment1
 
-###Strapi คือ Headless CMS(Content Management System) ซึ่งเป็น opensource ที่พัฒนาด้วย JavaScript และ Node.js
+### Strapi คือ Headless CMS(Content Management System) ซึ่งเป็น opensource ที่พัฒนาด้วย JavaScript และ Node.js
 
 วัตถุประสงค์ของ Strapi คือ Strapi ช่วยให้นักพัฒนาสามารถจัดการเนื้อหาผ่านอินเตอร์เฟซได้ง่าย ลดขั้นตอนในการเขียนโค้ด และเนื่องจาก Strapi เป็น opensource จึงทำให้สามารถปรับแต่งความสามารถได้ตามความต้องการของ Project Strapi ช่วยให้การจัดการเนื้อหาทำได้ง่ายและยืดหยุ่น โดยไม่ต้องกังวลเกี่ยวกับการจัดการการแสดงผลเนื้อหาหรือการสร้าง API ขึ้นมาจากศูนย์
 
@@ -25,7 +25,7 @@ Plugins
 
 อ้างอิงจาก [document](https://docs.strapi.io/user-docs/content-manager)
 
-###ขั้นตอนการติดตั้ง Strapi
+### ขั้นตอนการติดตั้ง Strapi
 
 แนะนำให้ทำผ่าน Linux หรือ WSL ดีที่สุด ในที่นี่จะเลือกใช้โดยทำผ่าน WSL
 
@@ -84,7 +84,7 @@ yarn develop
 [git](https://git-scm.com/docs/gitignore/en )
 [Medium Blogs](https://medium.com/odds-team/gitignore-%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%B2%E0%B8%A3%E0%B8%96%E0%B8%82%E0%B8%AD%E0%B8%87-git-version-control-a77d1677a9d3)
 
-###ขั้นตอนในการนำเว็ปแอปพลิเคชันขึ้นให้บริการบน AWS
+### ขั้นตอนในการนำเว็ปแอปพลิเคชันขึ้นให้บริการบน AWS
 
 1. login เข้า aws account จากนั้น search หา ec2 กดเข้าไปและสร้าง instance โดย instance type คือ t2.small
 2. ตั้งค่า inbound rules ให้เข้าถึงได้จากเครื่องใดๆในอินเทอร์เน็ตโดย 
@@ -100,11 +100,14 @@ Port range เป็น all
 8. ใช้คำสั่ง
 ```
  NODE_ENV=production npm run build
-``` เพื่อ build
+```
+ 
+เพื่อ build
 9. ใช้คำสั่ง 
 ```
 NODE_ENV=production npm run start
-``` เพื่อเริ่มรัน server
+```
+เพื่อเริ่มรัน server
 10. ใช้ Public IP ของ ec2 instance ที่เราใช้เพื่อเปิดหน้าเว็บแอปพลิเคชัน เช่น \\http://54.224.73.115:1337\\
 - 54.224.73.115 คือ Public IP และตามด้วย Port 1337 เนื่องจากเปิดเซิฟเวอร์ที่ Port 1337
 
